@@ -1,0 +1,19 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Build output and IDE state
+build/
+target/
+.gradle/
+.idea/
+*.iml
+
+# Runtime recovery files must persist during a recovery experiment.
+# They are local runtime data, not source artifacts.
+runtime/
+transaction-logs/
+
+# Evidence intended for review is stored explicitly under evidence/.
+.DS_Store
